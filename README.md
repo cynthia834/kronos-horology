@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+---
 
-First, run the development server:
+## 🏛️ About KRONOS Horology
 
-```bash
+**KRONOS** is an ultra-luxury hyper-horology salon and atelier bridging the historic watchmaking mastery of **Genève, Switzerland** with the sovereign diplomatic and economic elite of **Nairobi, Kenya** (One Africa Place, Westlands).
+
+Positioned for discerning collectors seeking multi-million KSh bespoke timepieces (KSh 1,450,000+ tier), KRONOS redefines luxury web experiences through dark atmospheric restraint, Imperial Burgundy & Warm Alabaster aesthetics, kinetic 3D watch articulation, and multi-sensory mechanical audio feedback.
+
+---
+
+## ✨ Sovereign Collections & Technical Dossier
+
+The atelier articulates six sovereign haute horlogerie references, each representing a pinnacle of mechanical engineering and hand-chamfered finishing:
+
+* **REF. K-01 — The Imperial Portugieser Tourbillon:** 18k Armor Rose Gold case framing a radial sunburst obsidian-burgundy dial, 12h snailed register, arched retrograde date, and a 6 o'clock flying tourbillon (384 parts).
+* **REF. K-02 — Platinum & Oxblood Rattrapante:** 950 Brushed Platinum high-frequency 5Hz (36,000 VPH) split-seconds chronograph with dual central rattrapante sweep hands.
+* **REF. K-03 — Rose Gold & Obsidian Repeater:** Acoustic concert hall sculpture featuring visible perimeter cathedral gongs and exposed dual striker hammers.
+* **REF. K-04 — Alabaster Gold & Astronomical Lune:** Secular Perpetual Calendar programmed to the year 2400 with a solid gold 3D Moonphase aperture.
+* **REF. K-05 — ATZ Ceramic & Burgundy Squelette:** Sintered Alabaster ATZ Ceramic case with an openworked X-brace skeleton bridge and exposed twin coiled mainspring barrels.
+* **REF. K-06 — Imperial Bronze-Gold Astrolabe:** 18k Cupro-Burgundy Bronze Gold featuring an engraved celestial astrolabe horizon ellipse and sidereal Equation of Time.
+
+---
+
+## 🛠️ Engineering & Architecture
+
+Engineered as a high-performance, cinematic Next.js web application utilizing cutting-edge web graphics and animation libraries:
+
+* **Framework:** Next.js (App Router) & React 18+
+* **Styling & Design System:** Tailwind CSS with custom Imperial Burgundy (`#3a0e14`), Warm Alabaster (`#fbf9f5`), and Champagne Gold palettes.
+* **Scroll Choreography:** GSAP (`ScrollTrigger`) and Lenis smooth scroll physics for buttery-smooth viewport transitions and progressive text reveals.
+* **3D & Interactive Visuals:** Custom WebGL/CSS3D HyperWatchCanvas with interactive camera angle tabs (Atelier, Tourbillon, Profile) and Day/Night Super-LumiNova toggles.
+* **Acoustic Simulation:** Web Audio API synthesis delivering mechanical ticking and cathedral gong chimes.
+
+---
+
+## 🚀 Getting Started Locally
+
+To run the KRONOS Atelier locally on your machine:
+
+1. Clone the repository:
+git clone [https://github.com/cynthia834/kronos-horology.git](https://github.com/cynthia834/kronos-horology.git)
+cd kronos-horology
+2. Install dependencies:
+npm install
+3. Run the development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+4. Open your browser:
+Navigate to http://localhost:3000 to experience the cinematic preloader, 3D watch visualizer, and immersive salon experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 💎 Private Concierge & Salon Appointments
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Nairobi Flagship:** One Africa Place, 5th Floor, Waiyaki Way, Westlands, Nairobi
+* **Geneva Atelier:** Rue du Rhône 42, 1204 Genève, Switzerland
+* **Allocation:** Bespoke commissions strictly limited to 3 to 8 pieces annually per reference.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
